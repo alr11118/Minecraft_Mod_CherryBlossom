@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model":  "CherryBlossomMod:block/CustomCherryGrassBlock" }
+  }
+}
