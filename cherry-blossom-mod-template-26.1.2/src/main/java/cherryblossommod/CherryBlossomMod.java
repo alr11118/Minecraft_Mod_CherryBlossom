@@ -22,6 +22,8 @@ public class CherryBlossomMod implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello Fabric world!");
+		ModBlocks.initialize();
+
 	}
 
 	public static Identifier id(String path) {
