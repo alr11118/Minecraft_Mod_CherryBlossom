@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "cherry-blossom-mod",
+	"id": "cherryblossommod",
 	"version": "${version}",
 	"name": "cherry-blossom-mod",
 	"description": "This is an example description! Tell everyone what your mod is about!",
@@ -12,7 +12,7 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/cherry-blossom-mod/icon.png",
+	"icon": "assets/cherryblossommod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -23,7 +23,7 @@
 		]
 	},
 	"mixins": [
-		"cherry-blossom-mod.mixins.json"
+      "cherryblossommod.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.19.3",

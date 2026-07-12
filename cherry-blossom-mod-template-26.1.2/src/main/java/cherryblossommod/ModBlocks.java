@@ -46,11 +46,11 @@ public class ModBlocks {
     }
 
     private static ResourceKey<Block> keyOfBlock(String name) {
-        return ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath("cherryblossommod", MOD_ID));
+        return ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath("cherryblossommod", name));
     }
 
     private static ResourceKey<Item> keyOfItem(String name) {
-        return ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath("cherryblossommod", MOD_ID));
+        return ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath("cherryblossommod", name));
     }
     public static void initialize() {
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.BUILDING_BLOCKS).register((creativeTab) -> {
