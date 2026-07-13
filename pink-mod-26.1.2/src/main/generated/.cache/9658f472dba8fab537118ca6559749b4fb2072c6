@@ -1,0 +1,4 @@
+// 26.1.2	-999999999-01-01T00:00:00	Pink Mod/Tags for minecraft:block
+fa8c0306a652aecc8a99a8265847119733bb03b6 data/minecraft/tags/block/mineable/pickaxe.json
+434eb53e8240601a09a195e632d496d41db18773 data/minecraft/tags/block/needs_iron_tool.json
+03a194a8809825432b7bfe71960a6cb9741d27db data/minecraft/tags/block/needs_stone_tool.json

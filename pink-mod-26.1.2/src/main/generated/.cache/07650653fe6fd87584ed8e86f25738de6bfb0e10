@@ -1,0 +1,5 @@
+// 26.1.2	-999999999-01-01T00:00:00	Pink Mod/Block Loot Tables
+aa80ee345402a4baed7dffb625234c8b92fa29eb data/pinkmod/loot_table/blocks/fluorite_block.json
+85273dc4a301f095fcc278bbb39b2bfca313b577 data/pinkmod/loot_table/blocks/fluorite_deepslate_ore.json
+78e9ea5418fcfea52eb0f0f499759dbcd141a144 data/pinkmod/loot_table/blocks/fluorite_ore.json
+a00d4e0b99b1151ee6727759f1b9c8ffa6005494 data/pinkmod/loot_table/blocks/raw_fluorite_block.json
