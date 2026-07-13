@@ -3,15 +3,15 @@
 	"id": "pinkmod",
 	"version": "${version}",
 	"name": "Pink Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This is a mod that adds new things to minecraft as I learn to mod in fabric, TODO: edit this later",
 	"authors": [
-		"Me!"
+		"Alara! or alr11118 on github"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/alr11118/",
+		"sources": ""
 	},
-	"license": "CC0-1.0",
+	"license": "MIT_License",
 	"icon": "assets/pinkmod/icon.png",
 	"environment": "*",
 	"entrypoints": {

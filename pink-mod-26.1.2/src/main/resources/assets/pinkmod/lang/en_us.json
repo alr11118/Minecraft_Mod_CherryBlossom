@@ -1,0 +1,13 @@
+{
+  "item.pinkmod.fluorite" : "Fluorite",
+  "item.pinkmod.raw_fluorite" : "Raw Fluorite",
+
+  "block.pinkmod.fluorite_block" : "Fluorite Block",
+  "block.pinkmod.raw_fluorite_block" : "Raw Fluorite Block",
+  "block.pinkmod.fluorite_ore" : "Fluorite Ore",
+  "block.pinkmod.fluorite_deepslate_ore" : "Fluorite Deepslate Ore",
+
+
+  "creativemodetab.pinkmode.fluorite_items": "Fluorite Items",
+  "creativemodetab.pinkmode.fluorite_block": "Fluorite Blocks"
+}
