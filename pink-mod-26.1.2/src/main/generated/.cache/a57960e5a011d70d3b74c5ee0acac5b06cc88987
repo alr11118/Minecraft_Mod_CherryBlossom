@@ -1,3 +1,7 @@
 // 26.1.2	-999999999-01-01T00:00:00	Pink Mod/PinkMod Recipes
-9f53add96cfed4730d439d72869e9b82ae2dbf35 data/pinkmod/advancement/recipes/misc/pink_gold.json
-37b329002c4a9c9db3c32b33e6320548521d4661 data/pinkmod/recipe/pink_gold.json
+e82e4a4a4e5ad03e31b65ccf9e8edbb1950ac2d3 data/pinkmod/advancement/recipes/misc/pink_gold_block.json
+77c19ed222b12012bc4cf47158207729c02b47de data/pinkmod/advancement/recipes/misc/pink_gold_from_copper_and_gold.json
+a66081563a66d2787ce4eb14d8ba5a7b3f794937 data/pinkmod/advancement/recipes/misc/pink_gold_from_pink_gold_block.json
+0de130fcb4362b87f376f92253dc3d69db6428f6 data/pinkmod/recipe/pink_gold_block.json
+653042ca17ba74f9b9ef86589116287b4335ab23 data/pinkmod/recipe/pink_gold_from_copper_and_gold.json
+37b329002c4a9c9db3c32b33e6320548521d4661 data/pinkmod/recipe/pink_gold_from_pink_gold_block.json

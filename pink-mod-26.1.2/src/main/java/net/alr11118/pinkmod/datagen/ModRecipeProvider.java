@@ -8,6 +8,7 @@ import net.minecraft.core.HolderLookup;
 import net.minecraft.data.recipes.RecipeCategory;
 import net.minecraft.data.recipes.RecipeOutput;
 import net.minecraft.data.recipes.RecipeProvider;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.CookingBookCategory;
 import net.minecraft.world.level.ItemLike;
 
@@ -26,22 +27,30 @@ public class ModRecipeProvider extends FabricRecipeProvider {
             public void buildRecipes() {
                 //nineBlockStorageRecipes(RecipeCategory.MISC, ModItems.PINKGOLD, RecipeCategory.BUILDING_BLOCKS, ModBlocks.PINKGOLD_BLOCK);
 
-                /*
+                shaped(RecipeCategory.MISC, ModItems.PINKGOLD)
+                        .pattern("GGG")
+                        .pattern("GCG")
+                        .pattern("GGG")
+                        .define('G', Items.GOLD_INGOT)
+                        .define('C', Items.COPPER_INGOT)
+                        .unlockedBy(getHasName(Items.GOLD_INGOT), has(Items.GOLD_INGOT))
+                        .group("pink_gold")
+                        .save(output, "pink_gold_from_copper_and_gold");
+
                 shaped(RecipeCategory.MISC, ModBlocks.PINKGOLD_BLOCK)
-                        .pattern("RRR")
-                        .pattern("RRR")
-                        .pattern("RRR")
-                        .define('R', ModItems.PINKGOLD)
+                        .pattern("GGG")
+                        .pattern("GGG")
+                        .pattern("GGG")
+                        .define('G', ModItems.PINKGOLD)
                         .unlockedBy(getHasName(ModItems.PINKGOLD), has(ModItems.PINKGOLD))
                         .group("pink_gold")
                         .save(output);
-                 */
 
                 shapeless(RecipeCategory.MISC, ModItems.PINKGOLD, 9)
                         .requires(ModBlocks.PINKGOLD_BLOCK)
                         .unlockedBy(getHasName(ModItems.PINKGOLD), has(ModBlocks.PINKGOLD_BLOCK))
                         .group("pink_gold")
-                        .save(output);
+                        .save(output, "pink_gold_from_pink_gold_block");
             }
         };
     }
