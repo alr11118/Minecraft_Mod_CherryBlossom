@@ -14,24 +14,20 @@ import net.minecraft.world.item.ItemStack;
 public class ModCreativeModeTabs {
 
     public static final CreativeModeTab FLUORITE_ITEM_TAB = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
-            Identifier.fromNamespaceAndPath(PinkMod.MOD_ID, "fluorite_items"),
-            FabricCreativeModeTab.builder().icon(() -> new ItemStack(ModItems.FLUORITE))
+            Identifier.fromNamespaceAndPath(PinkMod.MOD_ID, "pink_gold_items"),
+            FabricCreativeModeTab.builder().icon(() -> new ItemStack(ModItems.PINKGOLD))
                     .title(Component.translatable("creativemodetab.pinkmode.fluorite_items"))
                     .displayItems((parameters, output) -> {
-                        output.accept(ModItems.FLUORITE);
-                        output.accept(ModItems.RAW_FLUORITE);
+                        output.accept(ModItems.PINKGOLD);
                     })
                     .build());
 
-    public static final CreativeModeTab FLUORITE_BLOCK_TAB = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
-            Identifier.fromNamespaceAndPath(PinkMod.MOD_ID, "fluorite_blocks"),
-            FabricCreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.FLUORITE_BLOCK))
-                    .title(Component.translatable("creativemodetab.pinkmode.fluorite_block"))
+    public static final CreativeModeTab PINKGOLD_BLOCK_TAB = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
+            Identifier.fromNamespaceAndPath(PinkMod.MOD_ID, "pink_gold_blocks"),
+            FabricCreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.PINKGOLD_BLOCK))
+                    .title(Component.translatable("creativemodetab.pinkmode.pink_gold_block"))
                     .displayItems((parameters, output) -> {
-                        output.accept(ModBlocks.FLUORITE_BLOCK);
-                        output.accept(ModBlocks.RAW_FLUORITE_BLOCK);
-                        output.accept(ModBlocks.FLUORITE_ORE);
-                        output.accept(ModBlocks.FLUORITE_DEEPSLATE_ORE);
+                        output.accept(ModBlocks.PINKGOLD_BLOCK);
                     })
                     .build());
 

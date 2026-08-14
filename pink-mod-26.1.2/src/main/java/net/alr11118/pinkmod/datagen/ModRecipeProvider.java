@@ -24,28 +24,23 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         return new RecipeProvider(registries, output) {
             @Override
             public void buildRecipes() {
-                List<ItemLike> FLUORIDE_SMELTABLES = List.of(ModItems.RAW_FLUORITE,
-                        ModBlocks.FLUORITE_ORE,
-                        ModBlocks.FLUORITE_DEEPSLATE_ORE);
+                //nineBlockStorageRecipes(RecipeCategory.MISC, ModItems.PINKGOLD, RecipeCategory.BUILDING_BLOCKS, ModBlocks.PINKGOLD_BLOCK);
 
-                oreSmelting(FLUORIDE_SMELTABLES, RecipeCategory.MISC, CookingBookCategory.BLOCKS, ModItems.FLUORITE, 0.25f, 200, "fluorite");
-                oreBlasting(FLUORIDE_SMELTABLES, RecipeCategory.MISC, CookingBookCategory.BLOCKS, ModItems.FLUORITE, 0.25f, 100, "fluorite");
-
-                nineBlockStorageRecipes(RecipeCategory.MISC, ModItems.FLUORITE, RecipeCategory.BUILDING_BLOCKS, ModBlocks.FLUORITE_BLOCK);
-
-                shaped(RecipeCategory.MISC, ModBlocks.RAW_FLUORITE_BLOCK)
+                /*
+                shaped(RecipeCategory.MISC, ModBlocks.PINKGOLD_BLOCK)
                         .pattern("RRR")
                         .pattern("RRR")
                         .pattern("RRR")
-                        .define('R', ModItems.RAW_FLUORITE)
-                        .unlockedBy(getHasName(ModItems.RAW_FLUORITE), has(ModItems.RAW_FLUORITE))
-                        .group("fluoride")
+                        .define('R', ModItems.PINKGOLD)
+                        .unlockedBy(getHasName(ModItems.PINKGOLD), has(ModItems.PINKGOLD))
+                        .group("pink_gold")
                         .save(output);
+                 */
 
-                shapeless(RecipeCategory.MISC, ModItems.RAW_FLUORITE, 9)
-                        .requires(ModBlocks.RAW_FLUORITE_BLOCK)
-                        .unlockedBy(getHasName(ModItems.RAW_FLUORITE), has(ModBlocks.RAW_FLUORITE_BLOCK))
-                        .group("fluoride")
+                shapeless(RecipeCategory.MISC, ModItems.PINKGOLD, 9)
+                        .requires(ModBlocks.PINKGOLD_BLOCK)
+                        .unlockedBy(getHasName(ModItems.PINKGOLD), has(ModBlocks.PINKGOLD_BLOCK))
+                        .group("pink_gold")
                         .save(output);
             }
         };

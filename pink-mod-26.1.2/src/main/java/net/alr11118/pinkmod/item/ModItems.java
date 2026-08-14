@@ -13,9 +13,7 @@ import net.minecraft.world.item.Item;
 import java.util.function.Function;
 
 public class ModItems {
-    public static final Item FLUORITE = registerItem("fluorite", Item::new);
-    public static final Item RAW_FLUORITE = registerItem("raw_fluorite", Item::new);
-
+    public static final Item PINKGOLD = registerItem("pink_gold", Item::new);
 
     private static Item registerItem(String name, Function<Item.Properties, Item> function) {
         return Registry.register(BuiltInRegistries.ITEM, Identifier.fromNamespaceAndPath(PinkMod.MOD_ID, name),
@@ -26,8 +24,7 @@ public class ModItems {
         PinkMod.LOGGER.info("Registering Mod Items for " + PinkMod.MOD_ID);
 
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS).register(output -> {
-            output.accept(FLUORITE);
-            output.accept(RAW_FLUORITE);
+            output.accept(PINKGOLD);
         });
     }
 }
