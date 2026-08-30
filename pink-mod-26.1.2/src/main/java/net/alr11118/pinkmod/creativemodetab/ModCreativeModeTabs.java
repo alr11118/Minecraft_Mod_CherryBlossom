@@ -19,6 +19,12 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativemodetab.pinkmode.fluorite_items"))
                     .displayItems((parameters, output) -> {
                         output.accept(ModItems.PINKGOLD);
+
+                        output.accept(ModItems.PINKGOLD_SWORD);
+                        output.accept(ModItems.PINKGOLD_PICKAXE);
+                        output.accept(ModItems.PINKGOLD_SHOVEL);
+                        output.accept(ModItems.PINKGOLD_AXE);
+                        output.accept(ModItems.PINKGOLD_HOE);
                     })
                     .build());
 

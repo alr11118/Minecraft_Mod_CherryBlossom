@@ -51,6 +51,57 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy(getHasName(ModItems.PINKGOLD), has(ModBlocks.PINKGOLD_BLOCK))
                         .group("pink_gold")
                         .save(output, "pink_gold_from_pink_gold_block");
+
+                shaped(RecipeCategory.COMBAT, ModItems.PINKGOLD_SWORD)
+                        .pattern("G")
+                        .pattern("G")
+                        .pattern("S")
+                        .define('G', ModItems.PINKGOLD)
+                        .define('S', Items.STICK)
+                        .unlockedBy(getHasName(ModItems.PINKGOLD), has(ModItems.PINKGOLD))
+                        .group("pink_gold")
+                        .save(output);
+
+                shaped(RecipeCategory.COMBAT, ModItems.PINKGOLD_PICKAXE)
+                        .pattern("GGG")
+                        .pattern(" S ")
+                        .pattern(" S ")
+                        .define('G', ModItems.PINKGOLD)
+                        .define('S', Items.STICK)
+                        .unlockedBy(getHasName(ModItems.PINKGOLD), has(ModItems.PINKGOLD))
+                        .group("pink_gold")
+                        .save(output);
+
+                shaped(RecipeCategory.COMBAT, ModItems.PINKGOLD_SHOVEL)
+                        .pattern("G")
+                        .pattern("S")
+                        .pattern("S")
+                        .define('G', ModItems.PINKGOLD)
+                        .define('S', Items.STICK)
+                        .unlockedBy(getHasName(ModItems.PINKGOLD), has(ModItems.PINKGOLD))
+                        .group("pink_gold")
+                        .save(output);
+
+                shaped(RecipeCategory.COMBAT, ModItems.PINKGOLD_AXE)
+                        .pattern("GG")
+                        .pattern("SG")
+                        .pattern("S ")
+                        .define('G', ModItems.PINKGOLD)
+                        .define('S', Items.STICK)
+                        .unlockedBy(getHasName(ModItems.PINKGOLD), has(ModItems.PINKGOLD))
+                        .group("pink_gold")
+                        .save(output);
+
+                shaped(RecipeCategory.COMBAT, ModItems.PINKGOLD_HOE)
+                        .pattern("GG")
+                        .pattern("S ")
+                        .pattern("S ")
+                        .define('G', ModItems.PINKGOLD)
+                        .define('S', Items.STICK)
+                        .unlockedBy(getHasName(ModItems.PINKGOLD), has(ModItems.PINKGOLD))
+                        .group("pink_gold")
+                        .save(output);
+
             }
         };
     }

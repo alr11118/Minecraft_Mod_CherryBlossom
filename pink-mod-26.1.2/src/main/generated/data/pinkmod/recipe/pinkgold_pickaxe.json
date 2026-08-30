@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "pink_gold",
+  "key": {
+    "G": "pinkmod:pink_gold",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "GGG",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "id": "pinkmod:pinkgold_pickaxe"
+  }
+}

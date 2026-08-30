@@ -7,9 +7,9 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
-import net.minecraft.world.item.CreativeModeTabs;
-import net.minecraft.world.item.Item;
+import net.minecraft.world.item.*;
 
+import java.util.Properties;
 import java.util.function.Function;
 
 public class ModItems {
@@ -19,6 +19,17 @@ public class ModItems {
         return Registry.register(BuiltInRegistries.ITEM, Identifier.fromNamespaceAndPath(PinkMod.MOD_ID, name),
                 function.apply(new Item.Properties().setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(PinkMod.MOD_ID, name)))));
     }
+
+    public static final Item PINKGOLD_SWORD = registerItem("pinkgold_sword",
+            properties -> new Item(properties.sword(ModToolMaterials.PINKGOLD, 3, -2.4f)));
+    public static final Item PINKGOLD_PICKAXE = registerItem("pinkgold_pickaxe",
+            properties -> new Item(properties.pickaxe(ModToolMaterials.PINKGOLD, 1, -2.8f)));
+    public static final Item PINKGOLD_SHOVEL = registerItem("pinkgold_shovel",
+            properties -> new ShovelItem(ModToolMaterials.PINKGOLD, 1.5f, -3.0f, properties));
+    public static final Item PINKGOLD_AXE = registerItem("pinkgold_axe",
+            properties -> new AxeItem(ModToolMaterials.PINKGOLD, 6f, -3.2f, properties));
+    public static final Item PINKGOLD_HOE = registerItem("pinkgold_hoe",
+            properties -> new HoeItem(ModToolMaterials.PINKGOLD, 0f, -3.0f, properties));
 
     public static void registerModItems() {
         PinkMod.LOGGER.info("Registering Mod Items for " + PinkMod.MOD_ID);

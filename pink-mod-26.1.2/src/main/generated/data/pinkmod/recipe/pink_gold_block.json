@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "pink_gold",
+  "key": {
+    "G": "pinkmod:pink_gold"
+  },
+  "pattern": [
+    "GGG",
+    "GGG",
+    "GGG"
+  ],
+  "result": {
+    "id": "pinkmod:pink_gold_block"
+  }
+}

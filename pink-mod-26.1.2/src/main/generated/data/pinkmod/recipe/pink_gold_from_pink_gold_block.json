@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "pink_gold",
+  "ingredients": [
+    "pinkmod:pink_gold_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "pinkmod:pink_gold"
+  }
+}

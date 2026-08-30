@@ -1,3 +1,6 @@
 // 26.1.2	-999999999-01-01T00:00:00	Pink Mod/Tags for minecraft:block
 4401c4a27d0992d4a75b4180cdb43d4a8c531482 data/minecraft/tags/block/mineable/pickaxe.json
-4401c4a27d0992d4a75b4180cdb43d4a8c531482 data/minecraft/tags/block/needs_stone_tool.json
+4401c4a27d0992d4a75b4180cdb43d4a8c531482 data/minecraft/tags/block/needs_diamond_tool.json
+4401c4a27d0992d4a75b4180cdb43d4a8c531482 data/minecraft/tags/block/needs_iron_tool.json
+a249c46329a41538f49a564e1f14338aaf1be5a0 data/pinkmod/tags/block/incorrect_for_pinkgold_tool.json
+6abcafa0d00ca86c847affb00ae4095a60184177 data/pinkmod/tags/block/needs_pinkgold_tool.json
