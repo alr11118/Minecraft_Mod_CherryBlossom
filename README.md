@@ -1,8 +1,6 @@
 # Pink Gold
 
-<!-- INSERT MEDIA: Pink Gold banner image -->
-
-<!-- Recommended: place your full Pink Gold banner here -->
+![Pink Gold Banner](media/summaryDisplay.png)
 
 A vanilla-inspired Minecraft mod that adds **Pink Gold** as a new material, giving Gold a pink upgrade.
 
@@ -35,9 +33,7 @@ Pink Gold adds a complete material set designed to fit naturally into vanilla Mi
 
 Pink Gold's stats are designed to sit between **Gold and Diamond**, making it a stronger alternative to regular Gold while keeping the vanilla progression and feel of Minecraft.
 
-<!-- INSERT MEDIA: Horizontal screenshot of Pink Gold blocks -->
-
-<!-- Recommended: show the Pink Gold Block alongside other vanilla blocks -->
+![Pink Gold Blocks](media/pinkGoldBlocks.png)
 
 ---
 
@@ -47,9 +43,7 @@ Pink Gold Ingots are crafted using:
 
 **8 Gold Ingots + 1 Copper Ingot → 1 Pink Gold Ingot**
 
-<!-- INSERT MEDIA: Horizontal screenshot of the Pink Gold crafting recipe -->
-
-<!-- Recommended: use the pickaxe recipe screenshot here if it shows the crafting process clearly -->
+![Pink Gold Blocks](media/pinkgold.png)
 
 Pink Gold Ingots can then be used to craft the Pink Gold armor, tools, sword, and block.
 
@@ -61,9 +55,9 @@ Pink Gold includes a complete set of equipment while keeping Minecraft's familia
 
 The textures were created using Minecraft's existing assets as a visual foundation and adapted into a pink-gold design.
 
-<!-- INSERT MEDIA: Pink Gold armor screenshot -->
+![Pink Gold Armor](media/chestArmor.png)
 
-<!-- Recommended: showcase the complete armor set in-game -->
+![Pink Gold Pickaxe](media/pickaxe.png)
 
 ### Why Pink Gold?
 
@@ -175,21 +169,6 @@ Pink Gold is currently **working and tested** on Minecraft 26.1 with Fabric.
 ### Future Development
 
 Additional features may be added in the future, but there is currently no fixed roadmap.
-
----
-
-## Screenshots
-
-<!-- INSERT MEDIA: Main Pink Gold showcase screenshot -->
-
-<!-- INSERT MEDIA: Pink Gold armor showcase -->
-
-<!-- INSERT MEDIA: Pink Gold blocks -->
-
-<!-- INSERT MEDIA: Pink Gold tools -->
-
-<!-- INSERT MEDIA: Crafting recipe -->
-
 
 ---
 
