@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "pinkmod:pinkgold"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "pinkmod:pinkgold"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "pinkmod:pinkgold"
+      }
+    ]
+  }
+}

@@ -8,6 +8,7 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.*;
+import net.minecraft.world.item.equipment.ArmorType;
 
 import java.util.Properties;
 import java.util.function.Function;
@@ -30,6 +31,15 @@ public class ModItems {
             properties -> new AxeItem(ModToolMaterials.PINKGOLD, 6f, -3.2f, properties));
     public static final Item PINKGOLD_HOE = registerItem("pinkgold_hoe",
             properties -> new HoeItem(ModToolMaterials.PINKGOLD, 0f, -3.0f, properties));
+
+    public static final Item PINKGOLD_HELMET = registerItem("pinkgold_helmet",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.PINKGOLD_ARMOR_MATERIAL, ArmorType.HELMET)));
+    public static final Item PINKGOLD_CHESTPLATE = registerItem("pinkgold_chestplate",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.PINKGOLD_ARMOR_MATERIAL, ArmorType.CHESTPLATE)));
+    public static final Item PINKGOLD_LEGGINGS = registerItem("pinkgold_leggings",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.PINKGOLD_ARMOR_MATERIAL, ArmorType.LEGGINGS)));
+    public static final Item PINKGOLD_BOOTS = registerItem("pinkgold_boots",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.PINKGOLD_ARMOR_MATERIAL, ArmorType.BOOTS)));
 
     public static void registerModItems() {
         PinkMod.LOGGER.info("Registering Mod Items for " + PinkMod.MOD_ID);

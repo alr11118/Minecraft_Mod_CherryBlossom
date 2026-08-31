@@ -7,6 +7,11 @@
   "item.pinkmod.pinkgold_axe" : "Pinkgold Axe",
   "item.pinkmod.pinkgold_hoe" : "Pinkgold Hoe",
 
+  "item.pinkmod.pinkgold_helmet" : "Pinkgold Helmet",
+  "item.pinkmod.pinkgold_chestplate" : "Pinkgold Chestplate",
+  "item.pinkmod.pinkgold_leggings" : "Pinkgold Leggings",
+  "item.pinkmod.pinkgold_boots" : "Pinkgold Boots",
+
   "block.pinkmod.pinkgold_block" : "Block of Pinkgold",
 
   "creativemodetab.pinkmode.pinkgold_items": "Pinkgold Items",

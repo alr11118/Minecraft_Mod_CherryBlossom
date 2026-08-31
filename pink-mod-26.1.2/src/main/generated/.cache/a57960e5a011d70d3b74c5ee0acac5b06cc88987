@@ -1,6 +1,10 @@
 // 26.1.2	-999999999-01-01T00:00:00	Pink Mod/PinkMod Recipes
 e0437640b9c24f62816641f8a3baaf8a137337d7 data/pinkmod/advancement/recipes/combat/pinkgold_axe.json
+4286a9da29841bd84e0ec616ba59b829d62048a3 data/pinkmod/advancement/recipes/combat/pinkgold_boots.json
+4ee879cd9afd146e74042e0726bb55cc326f6536 data/pinkmod/advancement/recipes/combat/pinkgold_chestplate.json
+8fcb908e83721c31c0caa9acbb520673f37adea4 data/pinkmod/advancement/recipes/combat/pinkgold_helmet.json
 f7150d6eae31d68cf90bd8b9d528b0a99d99b2c2 data/pinkmod/advancement/recipes/combat/pinkgold_hoe.json
+598d8125823132040dba875e98f4d6bc0e397a7c data/pinkmod/advancement/recipes/combat/pinkgold_leggings.json
 b1fc20c910d5013a90e35768d276850f869c26cc data/pinkmod/advancement/recipes/combat/pinkgold_pickaxe.json
 10179f98c68ec75c39b4f5f7fceaedb0570ca6ef data/pinkmod/advancement/recipes/combat/pinkgold_shovel.json
 2adc971d11d37589e9a349c73265c6d303eefcfe data/pinkmod/advancement/recipes/combat/pinkgold_sword.json
@@ -11,7 +15,11 @@ a66081563a66d2787ce4eb14d8ba5a7b3f794937 data/pinkmod/advancement/recipes/misc/p
 653042ca17ba74f9b9ef86589116287b4335ab23 data/pinkmod/recipe/pink_gold_from_copper_and_gold.json
 37b329002c4a9c9db3c32b33e6320548521d4661 data/pinkmod/recipe/pink_gold_from_pink_gold_block.json
 7a30014ed685e85f10af53a16f657ef8491eeef3 data/pinkmod/recipe/pinkgold_axe.json
+9292a1828964de168ad6f9aad805c81c323b2a9b data/pinkmod/recipe/pinkgold_boots.json
+af80acff10e02d090cebfed06caaee71c9eb9e0c data/pinkmod/recipe/pinkgold_chestplate.json
+456bf375eb6f285053340b6d56fe25081961706b data/pinkmod/recipe/pinkgold_helmet.json
 319dee6df9e1455c3a3bba33313767053017feaa data/pinkmod/recipe/pinkgold_hoe.json
+993d39fa5e4ac4078a1fb980dbe1d07bbbf0a779 data/pinkmod/recipe/pinkgold_leggings.json
 ee434a73d23343b82442af316d3d896e3a91b383 data/pinkmod/recipe/pinkgold_pickaxe.json
 b87411375f16ae73bf4ea42f7565679a647a010a data/pinkmod/recipe/pinkgold_shovel.json
 27ed409362a314880075b2390f9a394e6a2fb6a9 data/pinkmod/recipe/pinkgold_sword.json

@@ -24,5 +24,10 @@ public class ModItemTagsProvider extends FabricTagsProvider.ItemTagsProvider {
         valueLookupBuilder(ItemTags.SHOVELS).add(ModItems.PINKGOLD_SHOVEL);
         valueLookupBuilder(ItemTags.AXES).add(ModItems.PINKGOLD_AXE);
         valueLookupBuilder(ItemTags.HOES).add(ModItems.PINKGOLD_HOE);
+
+        valueLookupBuilder(ItemTags.HEAD_ARMOR).add(ModItems.PINKGOLD_HELMET);
+        valueLookupBuilder(ItemTags.CHEST_ARMOR).add(ModItems.PINKGOLD_CHESTPLATE);
+        valueLookupBuilder(ItemTags.LEG_ARMOR).add(ModItems.PINKGOLD_LEGGINGS);
+        valueLookupBuilder(ItemTags.FOOT_ARMOR).add(ModItems.PINKGOLD_BOOTS);
     }
 }

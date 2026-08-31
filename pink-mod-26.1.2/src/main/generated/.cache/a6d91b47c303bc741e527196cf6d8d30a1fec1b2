@@ -1,0 +1,11 @@
+// 26.1.2	-999999999-01-01T00:00:00	Pink Mod/Tags for minecraft:item
+7da96c7afccfd56e2bd4ef9c3b936ce7e534704e data/minecraft/tags/item/axes.json
+6b00168cd6a1c88879b8b51e772de588899efd5c data/minecraft/tags/item/chest_armor.json
+e9fef9491165e2a95e3cf336d1833bc9be705b99 data/minecraft/tags/item/foot_armor.json
+5d03da062e01de177468f508ed663fc3d7c4725e data/minecraft/tags/item/head_armor.json
+37779c65e824cffa09eb44209639d0e81ccd352a data/minecraft/tags/item/hoes.json
+cc020c13906321d9f4efb1c006657618e16cebc6 data/minecraft/tags/item/leg_armor.json
+0d7dac8e8023a000c1c6ca375624ffd44e8952f3 data/minecraft/tags/item/pickaxes.json
+e1a6169623795f70cc1d0ab23a70934e2b50bfe5 data/minecraft/tags/item/shovels.json
+e4dcfeada7e998617ea1c1cc0ae87d1bb5f4eb43 data/minecraft/tags/item/swords.json
+c761edb858fea694f3b324218599925eb8fd8e4a data/pinkmod/tags/item/transformable_items.json

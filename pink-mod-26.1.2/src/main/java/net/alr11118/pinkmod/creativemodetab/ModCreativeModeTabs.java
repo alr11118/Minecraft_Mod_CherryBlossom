@@ -27,6 +27,11 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.PINKGOLD_SHOVEL);
                         output.accept(ModItems.PINKGOLD_AXE);
                         output.accept(ModItems.PINKGOLD_HOE);
+
+                        output.accept(ModItems.PINKGOLD_HELMET);
+                        output.accept(ModItems.PINKGOLD_CHESTPLATE);
+                        output.accept(ModItems.PINKGOLD_LEGGINGS);
+                        output.accept(ModItems.PINKGOLD_BOOTS);
                     })
                     .build());
 
@@ -55,6 +60,11 @@ public class ModCreativeModeTabs {
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.COMBAT)
                 .register(output -> {
                     output.accept(ModItems.PINKGOLD_SWORD);
+                    
+                    output.accept(ModItems.PINKGOLD_HELMET);
+                    output.accept(ModItems.PINKGOLD_CHESTPLATE);
+                    output.accept(ModItems.PINKGOLD_LEGGINGS);
+                    output.accept(ModItems.PINKGOLD_BOOTS);
                 });
     }
 }

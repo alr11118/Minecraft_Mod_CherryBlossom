@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "pink_gold",
+  "key": {
+    "G": "pinkmod:pink_gold"
+  },
+  "pattern": [
+    "G G",
+    "GGG",
+    "GGG"
+  ],
+  "result": {
+    "id": "pinkmod:pinkgold_chestplate"
+  }
+}

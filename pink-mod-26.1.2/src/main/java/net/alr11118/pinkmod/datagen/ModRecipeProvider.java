@@ -102,6 +102,40 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("pink_gold")
                         .save(output);
 
+                shaped(RecipeCategory.COMBAT, ModItems.PINKGOLD_HELMET)
+                        .pattern("GGG")
+                        .pattern("G G")
+                        .define('G', ModItems.PINKGOLD)
+                        .unlockedBy(getHasName(ModItems.PINKGOLD), has(ModItems.PINKGOLD))
+                        .group("pink_gold")
+                        .save(output);
+
+                shaped(RecipeCategory.COMBAT, ModItems.PINKGOLD_CHESTPLATE)
+                        .pattern("G G")
+                        .pattern("GGG")
+                        .pattern("GGG")
+                        .define('G', ModItems.PINKGOLD)
+                        .unlockedBy(getHasName(ModItems.PINKGOLD), has(ModItems.PINKGOLD))
+                        .group("pink_gold")
+                        .save(output);
+
+                shaped(RecipeCategory.COMBAT, ModItems.PINKGOLD_LEGGINGS)
+                        .pattern("GGG")
+                        .pattern("G G")
+                        .pattern("G G")
+                        .define('G', ModItems.PINKGOLD)
+                        .unlockedBy(getHasName(ModItems.PINKGOLD), has(ModItems.PINKGOLD))
+                        .group("pink_gold")
+                        .save(output);
+
+                shaped(RecipeCategory.COMBAT, ModItems.PINKGOLD_BOOTS)
+                        .pattern("G G")
+                        .pattern("G G")
+                        .define('G', ModItems.PINKGOLD)
+                        .unlockedBy(getHasName(ModItems.PINKGOLD), has(ModItems.PINKGOLD))
+                        .group("pink_gold")
+                        .save(output);
+
             }
         };
     }
