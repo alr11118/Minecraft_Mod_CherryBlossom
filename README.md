@@ -202,7 +202,7 @@ See [`LICENSE`](LICENSE) for the full license text.
 
 Want to try Pink Gold?
 
-**Download it on Modrinth:** [INSERT MODRINTH URL]
+**Download it on Modrinth:** [https://modrinth.com/project/sE2n6AS4]
 
 If you find a bug or have an idea for the project, feel free to open an issue on GitHub.
 
