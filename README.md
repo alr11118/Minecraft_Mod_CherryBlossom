@@ -31,7 +31,7 @@ Pink Gold adds a complete material set designed to fit naturally into vanilla Mi
   * Shovel
   * Hoe
 
-Pink Gold's stats are designed to sit between **Gold and Diamond**, making it a stronger alternative to regular Gold while keeping the vanilla progression and feel of Minecraft.
+Pink Gold's stats are designed to sit between **Gold and Diamond**, making it a stronger alternative to regular Gold while keeping the vanilla progression and feel.
 
 ![Pink Gold Blocks](media/pinkGoldBlocks.png)
 
