@@ -63,7 +63,7 @@ The textures were created using Minecraft's existing assets as a visual foundati
 
 Gold already has some unique advantages in Minecraft, but its equipment can be limiting compared with other materials.
 
-Pink Gold gives players another option: **the look of gold with stronger equipment**, while adding a completely new color palette that fits naturally into the vanilla game.
+Pink Gold gives players another option: **the look of gold with stronger equipment**, while adding a completely new color palette that fits naturally into the game.
 
 ---
 
