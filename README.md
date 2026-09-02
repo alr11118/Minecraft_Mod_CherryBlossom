@@ -180,11 +180,9 @@ The project was developed using Fabric, Java, IntelliJ IDEA, Minecraft's existin
 
 I also followed a YouTube tutorial while learning Minecraft mod development. The tutorial helped me understand the process of creating a Fabric mod and served as a learning resource while building this project.
 
-**Tutorial:** [https://youtu.be/7i_rtkj67qk?si=Fp7OmpquBMKGEOPV]
+**Tutorial:** https://youtu.be/7i_rtkj67qk?si=Fp7OmpquBMKGEOPV
 
-If applicable, the tutorial's accompanying GitHub repository can also be credited here:
-
-**Tutorial Repository:** [https://github.com/Tutorials-By-Kaupenjoe/Fabric-Tutorial-26.X.git]
+**Tutorial Repository:** https://github.com/Tutorials-By-Kaupenjoe/Fabric-Tutorial-26.X.git
 
 Minecraft is owned by Mojang Studios and Microsoft. Pink Gold is an independent project and is not affiliated with or endorsed by Mojang or Microsoft.
 
